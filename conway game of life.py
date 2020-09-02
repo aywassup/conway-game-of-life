@@ -83,14 +83,4 @@ while True:
 	print_grid(next_frame(grid))
 	print()
 	grid = next_frame(grid)
-	time.sleep(1)
-
-
-# write full game. 
-# start by asking the user for a filename for the starting positions of the virus. 
-# Create a grid from that. 
-# Allow the user to advance the simulation by pressing enter. 
-# if the types "play", then just advance the simulaiton automaticaly (use time.sleep() to slow it down so the user can see it)
-# can also type 'q' to quit 
-# add comments to each function and each tricky part of the code. 
-# make sure you print updates for the user. (i.e. say generation 1: generation 2:) also give the user prompts on how to interact with the program. 
+	time.sleep(1) 
